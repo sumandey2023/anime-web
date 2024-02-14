@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+}
+.logo{
+   width: 200px;
+    height: 40px;
+    
+}
+
+
+.fullpage{
+    background: url('background.png');
+    width: 98%;
+    height: 750px;
+    background-size: cover;
+}
+.wrapper {
+    width: 98%;
+    height: 98%;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter:  blur(10px);
+    
+    }
+
+.navbar{
+    width: 70%;
+    height: 40px;
+    background-color:black;
+    color: white; 
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px ;
+    display: block;
+    text-align: center;
+  
+  
+}
+.navright{
+    width: 200px;
+    height: 50px;
+    
+}
+
+.info{
+    padding-left: 25px;
+}
+.movielist{
+    padding-left: 25px;
+}
+.Quotes{
+    padding-left: 25px;
+}
+.Wallpapers{
+    padding-left: 25px;
+}
+.titel{
+    display: flex;
+   
+}
+.titel1{
+    padding-top: 50px;
+color: black;
+font-size: 5rem;
+font-weight:bolder;
+width: 800px;
+height: 234px;
+margin-left: 100px;
+}
+.image1{
+    height: 200px;
+    width: 200px;
+  border-radius: 20px;
+ margin-top: 30px;
+ margin-left: 120px;
+}
+.image2{
+    height: 200px;
+    width: 200px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.do{
+    height: 170px;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 450px;
+    border-radius: 20px;
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+}
+.wedo{
+    display: flex;
+   
+}
+.wedo2{
+    height: 40px;
+    width: 80px;
+}
+.wedo1{
+    height: 40px;
+    width: 420px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: larger;
+
+}
+.wedotext{
+    padding-left: 25px;
+    padding-top: 20px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
